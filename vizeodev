@@ -1,0 +1,6 @@
+```{r}
+model<-lm(Sales~.,advertising)
+model
+summary(model)
+fitted(model)
+```
